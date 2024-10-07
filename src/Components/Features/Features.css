@@ -1,0 +1,118 @@
+
+/* ................styling for the divs of each column .................*/
+.column{
+    float:left;
+    width:33.33%;
+    padding:5px;
+}
+
+.feature::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+/*........................styling for each button feature...........................*/
+.sebenza-find-btn{
+    position:relative;
+    top:-280px;
+    left:190px;
+    z-index:1;
+    width:100px;
+    height:30px;
+    border:1px solid rgb(137, 138, 137);
+    border-radius:8px;
+    
+}
+
+.sebenzaBuild-btn{
+    position:relative;
+    top:-330px;
+    left:160px;
+    z-index:1;
+    width:95px;
+    height:30px;
+    border:1px solid rgb(137, 138, 137);
+    border-radius:8px;
+
+
+}
+
+.sebenzaConnect-btn{
+    position:relative;
+    left:1050px;
+    top:-420px;
+    z-index:1;
+    width:120px;
+    height:30px;
+    border:1px solid rgb(137, 138, 137);
+    border-radius:8px;
+}
+
+
+/*...................styling for each paragraph written for each feature..................*/
+.sebenzaFind-p{
+    position: relative;
+    top:110px;
+    left:150px;
+    font-weight:bold;
+}
+
+.sebenzaBuild-p{
+    position:relative;
+    top:55px;
+    left:150px;
+    font-weight:bold;
+}
+
+.sebenzaConnect-p{
+    position:relative;
+    top:-390px;
+    left:1050px;
+    font-weight:bold;
+
+}
+
+/*.................styling for feature with unordered list*/
+.sebenzaBuild-ul li{
+    position:relative;
+    font-size:16px;
+    top:70px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration:underline;
+}
+
+.sebenzaFind-ul li{
+    position:relative;
+    font-size:16px;
+    top:120px;
+    margin-left:-5px;
+    left:15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration:underline;
+}
+
+/*....................styling for each feature image....................*/
+
+.sebenzaFind-img{
+    width:300px;
+    position:relative;
+    top:55px;
+    
+}
+
+.sebenzaBuild-img{
+    width:350px;
+    position:relative;
+    top:50px;
+    left:-70px;
+
+}
+
+.sebenzaConnnect-img{
+    width:350px;
+    position:relative;
+    left:950px;
+    top:-400px;
+
+}
